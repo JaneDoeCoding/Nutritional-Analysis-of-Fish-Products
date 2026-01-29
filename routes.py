@@ -3,7 +3,6 @@ from flask import Blueprint, request, jsonify, render_template
 routes = Blueprint('routes', __name__)
 
 # Product Data Storage(samples, for test)
-# Note: Use a database like PostgreSQL or MongoDB for production
 products = [
     {
         'id': 1,
