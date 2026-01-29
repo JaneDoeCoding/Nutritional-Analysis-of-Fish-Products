@@ -2,7 +2,7 @@ from flask import Blueprint, request, jsonify, render_template
 
 routes = Blueprint('routes', __name__)
 
-# --- 1. Product Data Storage (In-Memory) ---
+# Product Data Storage(samples, for test)
 # Note: Use a database like PostgreSQL or MongoDB for production
 products = [
     {
@@ -61,7 +61,7 @@ products = [
     }
 ]
 
-# --- 2. Routes ---
+# Routes
 
 @routes.route('/')
 def home():
