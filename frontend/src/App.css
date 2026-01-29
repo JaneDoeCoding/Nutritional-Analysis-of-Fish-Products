@@ -8,9 +8,9 @@ html, body {
 
 #root {
   width: 100%;
-  height: 100vh; /* 让高度撑满视口 */
-  margin: 0;      /* 去掉居中 */
-  padding: 0;     /* 去掉内边距 */
+  height: 100vh;
+  margin: 0;    
+  padding: 0;   
   text-align: center;
 }
 
