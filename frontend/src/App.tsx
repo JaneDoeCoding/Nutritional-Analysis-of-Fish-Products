@@ -10,13 +10,13 @@ const App: React.FC = () => {
   return (
     <Router>
       <Routes>
-        {/* 根路由渲染首页 */}
+        {/* Root route renders the landing page */}
         <Route path="/" element={<HomePage />} />
 
-        {/* 产品详情页 */}
+        {/* Individual product details page */}
         <Route path="/products/:id" element={<ProductDetail />} />
 
-        {/* 产品对比页 */}
+        {/* Side-by-side product comparison page */}
         <Route path="/compare" element={<ComparisonView />} />
       </Routes>
     </Router>
