@@ -16,36 +16,32 @@ So I chose nutritional analysis of fish products as the theme of this project. T
 
 3.Features
 
-•	Query nutritional information for different fish products
-
-•	Display key nutritional indicators in a clear and user-friendly interface
-
-•	Front-end and back-end separation for easier maintenance and future expansion
+Query nutritional information for different fish products; Display key nutritional indicators in a clear and user-friendly interface; Front-end and back-end separation for easier maintenance and future expansion
 
 4.Technical Architecture
 
-Backend
+Backend:
 
-•	Language: Python
+Language: Python
 
-•	Framework: Flask
+Framework: Flask
 
-•	Responsibilities:
+Responsibilities:
 
   	Provide APIs for fish product nutritional data
   
   	Handle data queries and responses
 
-•	Location: backend/ directory
+Location: backend/ directory
 
 
 Frontend
 
-•	Language: TypeScript
+Language: TypeScript
 
-•	Framework: React
+Framework: React
 
-•	Responsibilities:
+Responsibilities:
 
   	User interface rendering
   
@@ -53,14 +49,10 @@ Frontend
   
   	Display of nutritional data
 
-•	Location: frontend/ directory
+Location: frontend/ directory
 
 Both the frontend and backend can be deployed to a cloud platform. After deployment, users can directly access the frontend page through a web browser to query nutritional information for fish products.
 
 5.Future Improvements
 
-•	Add more types of fish and seafood products
-
-•	Introduce charts and visualizations for nutritional data
-
-•	Improve overall UI design
+Add more types of fish and seafood products; Introduce charts and visualizations for nutritional data; Improve overall UI design
